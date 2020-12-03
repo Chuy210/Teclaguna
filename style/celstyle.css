@@ -1,0 +1,8 @@
+  /** dispositivos móviles en vista viewport (vertical) */
+  @media (max-width: 575px) {
+      body{
+          background-color: green;
+      }
+  }
+
+  
