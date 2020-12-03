@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+/* -------------------------SECCION DEL GOB DE MEXICO------------------------------- */
+.seccion1{
+    background-color: #0b231e;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    
+}
+.gob{
+    width: 27%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gob>p>a:link{
+color:white;
+text-decoration: none;
+}
+.gob>p>a:visited {
+    color:white;
+text-decoration: none;
+  }
+  
+.gob>p>a:hover {
+    color:white;
+text-decoration: none;
+  }
+  
+.gob>p>a:active {
+    color:white;
+text-decoration: none;
+  }
+.seccion1>img{
+    height: 35px;
+}
+.seccion1>div>a>img{
+    height: 30px;
+}
+/* -----------------------HEADER SECCION 2------------------------ */
+.seccion2{
+    /* background-color: aqua; */
+    height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 65px;
+}
+.seccion2>img{
+    height: 105px;
+    padding: 10px 0;
+}
+.seccion2>.edu{
+    height: 85px;
+}
+.seccion2>.tec{
+    height: 85px;
+}
+
+/* -----------------------HEADER NAV------------------------ */
+.navegacion{
+    height: 63px;
+    background-color: #363637;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.navegacion>a>img{
+    height: 35px;
+}
+.navegacion>ul{
+    list-style: none;
+    display: flex;
+    
+}
+.navegacion>ul>li{
+    padding: 0 15px;
+}
+
+
